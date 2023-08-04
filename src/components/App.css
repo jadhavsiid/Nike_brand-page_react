@@ -1,0 +1,41 @@
+/* Importing Google Fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Defaults */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* var */
+:root{
+  --red: #d01c28;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+}
+
+button{
+  all: unset;
+  padding: 6px 16px;
+  background: var(--red);
+  height: 32px;
+  font-weight: 500;
+}
